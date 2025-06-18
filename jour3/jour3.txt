@@ -1,0 +1,33 @@
+Job01 : Installation de MongoDB Community Server et MongoDB Compass 
+
+Job02 : Utilisation de la commande `show dbs` dans MongoSH 
+
+Job03 : Création de la base `shop` et ajout d’un produit (chaussure) 
+
+Job04 : Insertion de deux nouveaux produits : pantalon noir et chaussettes 
+
+Job05 : Création de la collection `category` avec trois catégories 
+
+Job06 : Affichage des collections avec `show collections` 
+
+Job07 : Récupération des données de la collection `category` 
+
+Job08 : Affichage de seulement deux catégories avec `limit(2)` 
+
+Job09 : Tri des produits par prix croissant 
+
+Job10 : Tri des produits par prix décroissant 
+
+Job11 : Affichage des produits avec prix > 5 et quantité < 100 
+
+Job12 : Affichage des produits avec prix > 14.99 OU stock > 100 
+
+Job13 : Récupération des produits sans champ `_id` 
+
+Job14 : Récupération d’une catégorie via son `_id` 
+
+Job15 : Modification de la catégorie “Bébé” en “Vêtements pour enfant” 
+
+Job16 : Ajout du champ `category_id` dans les produits 
+
+Job17 : Agrégation pour trouver la catégorie avec le moins de produits 
