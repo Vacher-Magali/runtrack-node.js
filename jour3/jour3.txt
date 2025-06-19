@@ -1,16 +1,52 @@
 Job01 : Installation de MongoDB Community Server et MongoDB Compass 
 
 Job02 : Utilisation de la commande `show dbs` dans MongoSH 
+-Show dbs
 
 Job03 : Création de la base `shop` et ajout d’un produit (chaussure) 
 
+db.product.insertOne({
+  name: "chaussure",
+  description: "une paire de chaussures",
+  price: 35,
+  quantity: 120
+})
+
 Job04 : Insertion de deux nouveaux produits : pantalon noir et chaussettes 
+
+db.product.insertMany([
+  {
+    name: "Pantalon noir",
+    description: "Un pantalon noir",
+    price: 14.99,
+    quantity: 12
+  },
+  {
+    name: "chaussettes",
+    description: "chaussettes cool !",
+    price: 6,
+    quantity: 6
+  }
+])
+
 
 Job05 : Création de la collection `category` avec trois catégories 
 
+db.category.insertMany([
+  { name: "Homme" },
+  { name: "Femme" },
+  { name: "Bébé" }
+])
+
 Job06 : Affichage des collections avec `show collections` 
 
+show collections
+category
+product
+
 Job07 : Récupération des données de la collection `category` 
+
+
 
 Job08 : Affichage de seulement deux catégories avec `limit(2)` 
 
